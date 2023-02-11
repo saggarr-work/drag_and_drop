@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    /* majhkhane anar jonno */
+    height: 100vh;
+}
+
+.appBody{
+    border: 2px dashed gray;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 50px;
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.appBody:active{
+    border: 3px solid blue;
+}
+
+.icon{
+    color: rgb(129, 129, 253);
+    font-size: 100px;
+}
+
+.appBody h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: gray;
+}
+
+.appBody span{
+    font-size: 25px;
+    font-weight: 200;
+    color: gray;
+    margin: 10px 0 15px 0;
+}
+
+.appBody button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid gray;
+    background: #fff;
+    color: rgb(129, 129, 253);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appBody button:hover{
+    background-color: aliceblue;
+}
